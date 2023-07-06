@@ -2,9 +2,24 @@ body{
     background-color: black;
 }
 
-.firstButtonDiv {
+.container {
+    margin: 0 auto;
+}
+
+.firstDiv {
+    text-align: center;
     width: 50%;
     float: left;
+    height: 250px;
+    padding-top: 120px;
+}
+
+.secondDiv {
+    text-align: center;
+    width: 50%;
+    float: left;
+    height: 250px;
+    padding-top: 120px;
 }
 
 .firstButton {
@@ -14,13 +29,52 @@ body{
     color: azure;
     border: 1px solid rgb(24, 24, 24);
     border-radius: 10px;
+    transition: all .3s;
 }
 
 .firstButton:hover {
     width: 220px;
     height: 40px;
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(68, 67, 67);
     color: azure;
     border: 1px solid rgb(0, 255, 76);
     border-radius: 10px;
+    transition: all .3s;
+}
+
+.secondButton {
+    text-transform: uppercase;
+    width: 220px;
+    height: 40px;
+    background-color: rgb(0, 104, 202);
+    color: azure;
+    border: 1px solid rgb(0, 104, 202);
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.secondButton:hover {
+    content: '';
+    bottom: 0;
+    left: 0;
+    background-color: cornflowerblue;
+    transition: all .3s;
+}
+
+
+.thirdButton {
+    text-transform: uppercase;
+    width: 220px;
+    height: 40px;
+    background: linear-gradient(#20a898, #05302b) right;
+    transition: all 0.5s;
+    color: azure;
+    border: 1px solid #05302b;
+    border-radius: 10px;
+}
+
+.thirdButton:hover {
+    background: linear-gradient(#05574d, #031d1a) right;
+    border: 1px solid #031d1a;
+    transition: all .5s;
 }
