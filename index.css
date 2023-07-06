@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+.firstButtonDiv {
+    width: 50%;
+    float: left;
+}
+
+.firstButton {
+    width: 220px;
+    height: 40px;
+    background-color: rgb(24, 24, 24);
+    color: azure;
+    border: 1px solid rgb(24, 24, 24);
+    border-radius: 10px;
+}
+
+.firstButton:hover {
+    width: 220px;
+    height: 40px;
+    background-color: rgb(24, 24, 24);
+    color: azure;
+    border: 1px solid rgb(0, 255, 76);
+    border-radius: 10px;
+}
