@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(173, 255, 251);
 }
 
 .container {
@@ -63,18 +63,42 @@ body{
 
 
 .thirdButton {
-    text-transform: uppercase;
-    width: 220px;
-    height: 40px;
-    background: linear-gradient(#20a898, #05302b) right;
-    transition: all 0.5s;
-    color: azure;
-    border: 1px solid #05302b;
-    border-radius: 10px;
+    display: inline-block;
+      padding: 10px 20px;
+      text-align: center;
+      background: linear-gradient(to left, #FF6347, #8A2BE2); /* Gradient colors */
+      background-size: 200% auto;
+      background-position: right center;
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 18px;
+      text-decoration: none;
+      transition: background-position 0.5s ease;
 }
 
 .thirdButton:hover {
-    background: linear-gradient(#05574d, #031d1a) right;
-    border: 1px solid #031d1a;
-    transition: all .5s;
+    background-position: left center;
+}
+
+.fourthButton {
+    text-transform: uppercase;
+    width: 220px;
+    height: 40px;
+    background-color: rgb(239, 247, 255);
+    color: rgb(61, 61, 61);
+    border: 1px solid rgb(239, 247, 255);
+    border-radius: 10px;
+    transition: all .3s;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.fourthButton:hover {
+    box-shadow: 0 5px 10px #2e2e2e;
+}
+
+.fourthButton:active {
+    box-shadow: 0 5px 10px #2e2e2e;
+    transform: translateY(-5px);
 }
